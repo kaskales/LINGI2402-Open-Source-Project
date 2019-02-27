@@ -128,13 +128,12 @@ h1 {
     line-height: 22px;
 }
 
-
 ul#menu li {
     display:block;
     font-size: 20px;
     color: #737373;
     padding-left: 80px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -143,6 +142,10 @@ ul#menu li {
     line-height: 30px;
     padding-top: -60px;
 
+}
+
+.tools{
+    margin-bottom: -25px !important;
 }
 
 
