@@ -10,7 +10,7 @@ body {
 
 
 h1 {
-    font-size: 30px;
+    font-size: 20px;
     color: #264653;
     padding-left: 40px;
     font-family: 'Montserrat', sans-serif;
@@ -21,7 +21,7 @@ h1 {
 
 .sidenav {
     height: 100%;
-    width: 300px;
+    width: 230px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -38,7 +38,7 @@ h1 {
 .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 15px;
     color: white;
     display: block;
     border: none;
@@ -47,14 +47,14 @@ h1 {
 
 .fa-caret-down, .fa-caret-up {
   float: right;
-  padding-right: 8px;
+  padding-right: 11px;
 }
 
 
 .sidenav a:hover{
     color:  #264653;
     outline:none;
-    font-size: 30px;
+    font-size: 20px;
 }
 .sidenav a:active{
     outline:none;
@@ -65,7 +65,7 @@ h1 {
 
 .dropdown-container 
 {
-    font-size: 25px;
+    font-size: 15px;
     align-items: center;
     text-align:center;
     display: none;
@@ -75,37 +75,32 @@ h1 {
 
 
 .main {
-    margin-left: 300px; /* Same as the width of the sidenav */
+    margin-left: 230px; /* Same as the width of the sidenav */
     padding: 0px 10px;
 }
 
 
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
-
 #profile {
-    width: 250px;
-    border-radius: 8px;
+    width: 97%;
 }
+
 #classid, #classname {
-    font-size: 90px;
+    font-size: 80px;
 
 }
-#classname, #email{
+#classname{
     color: #FFD43B;
 }
 
 #studentid{
-    font-size: 55px;
+    font-size: 45px;
     color: #306998;
 }
 
 #city {
     color: #e9c46a;
     padding-left: 8px;
-    font-size: 20px;
+    font-size: 10px;
 }
 
 #github-mark{
@@ -121,12 +116,12 @@ h1 {
 
 .navsection {
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 40px;
 }
 
 .navsection p{
-    font-size: 25px;
+    font-size: 15px;
     color: #264653;
     padding-left: 40px;
     margin-bottom: -40px;
@@ -136,7 +131,7 @@ h1 {
 
 ul#menu li {
     display:block;
-    font-size: 25px;
+    font-size: 15px;
     color: #737373;
     padding-left: 80px;
     padding-bottom: 20px;
@@ -153,12 +148,12 @@ ul#menu li {
 
 #OpenSource a{
     padding-left: 80px;
-    font-size: 20px;
+    font-size: 10px;
     color: #e9c46a;  
 }
+
 #user{
     color: #306998 !important; 
-    font-size: 23px !important; 
     padding-left: 0px !important;
     text-decoration: none;
 }
