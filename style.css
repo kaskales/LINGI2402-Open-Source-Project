@@ -10,7 +10,7 @@ body {
 
 
 h1 {
-    font-size: 30px;
+    font-size: 25px;
     color: #264653;
     padding-left: 40px;
     font-family: 'Montserrat', sans-serif;
@@ -85,7 +85,7 @@ h1 {
 }
 
 #classid, #classname {
-    font-size: 70px;
+    font-size: 60px;
 
 }
 #classname{
@@ -93,7 +93,7 @@ h1 {
 }
 
 #studentid{
-    font-size: 55px;
+    font-size: 45px;
     color: #306998;
 }
 
