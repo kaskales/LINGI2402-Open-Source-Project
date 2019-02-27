@@ -24,6 +24,12 @@ $(document).ready(function(){
       scrollTop: $($.attr(this, 'href')).offset().top - scrollOffSet
     }, 700);
   });
+  $("#button5").click(function(e) {
+    e.preventDefault();
+    $('html, body').animate({
+      scrollTop: $($.attr(this, 'href')).offset().top - scrollOffSet
+    }, 700);
+  });
 
   $("#1731").click(function(e) {
     e.preventDefault();
