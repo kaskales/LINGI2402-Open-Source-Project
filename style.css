@@ -1,0 +1,216 @@
+/*'Cutive Mono', monospace;*/ /*'League Script', cursive;*/  /*'VT323', monospace;*/
+/*
+linear-gradient(to right, black, white);*/
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background: url(images/biopython_logo_l_opacity1.png) bottom right no-repeat fixed;
+    background-size: 80%; 
+}
+
+
+h1 {
+    font-size: 30px;
+    color: #264653;
+    padding-left: 40px;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:  #a0d6f7;
+    overflow-x: hidden;
+    padding-top: 100px;
+    align-items: center;
+    text-align:center;
+    border: none;
+    outline:none;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    border: none;
+    background-color:  #a0d6f7;
+}
+
+.fa-caret-down, .fa-caret-up {
+  float: right;
+  padding-right: 8px;
+}
+
+
+.sidenav a:hover{
+    color:  #264653;
+    outline:none;
+    font-size: 30px;
+}
+.sidenav a:active{
+    outline:none;
+}
+.sidenav a:link{
+    outline:none;
+}
+
+.dropdown-container 
+{
+    font-size: 25px;
+    align-items: center;
+    text-align:center;
+    display: none;
+    padding-left: 8px;
+    background-color:  #a0d6f7;
+}
+
+
+.main {
+    margin-left: 300px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+}
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+#profile {
+    width: 250px;
+    border-radius: 8px;
+}
+#classid, #classname {
+    font-size: 90px;
+
+}
+#classname, #email{
+    color: #FFD43B;
+}
+
+#studentid{
+    font-size: 55px;
+    color: #306998;
+}
+
+#city {
+    color: #e9c46a;
+    padding-left: 8px;
+    font-size: 20px;
+}
+
+#github-mark{
+    width: 90px;
+}
+
+.github-octicon{
+    width: 30px;
+    padding-left: 10px;
+    vertical-align: middle
+
+}
+
+.navsection {
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.navsection p{
+    font-size: 25px;
+    color: #264653;
+    padding-left: 40px;
+    margin-bottom: -40px;
+    line-height: 22px;
+}
+
+
+ul#menu li {
+    display:block;
+    font-size: 25px;
+    color: #737373;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#menu{
+    line-height: 30px;
+    padding-top: -60px;
+
+}
+
+
+#OpenSource a{
+    padding-left: 80px;
+    font-size: 20px;
+    color: #e9c46a;  
+}
+#user{
+    color: #306998 !important; 
+    font-size: 23px !important; 
+    padding-left: 0px !important;
+    text-decoration: none;
+}
+
+#largelogo{
+    width: 100%;
+    opacity: .1;
+}
+
+
+/***************************************
+                TOOL TIP
+****************************************/
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: #646464;
+  width: auto;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 7px 7px 7px 7px;
+  position: absolute;
+  z-index: 1;
+  bottom: 130%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  white-space: nowrap;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #646464 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    font-size: 21px;
+    visibility: visible;
+    opacity: 1;
+}
+
+
