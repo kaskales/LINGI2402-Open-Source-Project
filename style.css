@@ -51,6 +51,9 @@ h1 {
   padding-top: 4px;
 }
 
+.modulelist{
+    padding-left:15%;
+}
 
 .sidenav a:hover{
     color:  #264653;
