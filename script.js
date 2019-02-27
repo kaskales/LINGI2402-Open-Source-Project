@@ -74,21 +74,14 @@ $(document).ready(function(){
     });
   } 
 
-  // add corresponding hovering tooltip
-
- /* var octicons_vars = document.getElementsByClassName("github-octicon"); 
-  for (i = 0; i < octicons_vars.length; i++) {
-    var text =  "hi ::after";
-
-    
-    octicons_vars[i].append('<span class="tooltiptext">'+text+'</span>');
-  } */
+  
  
 });
 
 
-
 $( "a" ).click(function(e) {
-  $(this).find("i").toggleClass('fa-caret-up fa-caret-down');
+  $(this).find("i").toggleClass('fa-angle-up fa-angle-down');
   
 });
+
+
