@@ -1,15 +1,12 @@
-/*'Cutive Mono', monospace;*/ /*'League Script', cursive;*/  /*'VT323', monospace;*/
-/*
-linear-gradient(to right, black, white);*/
-
-body {
+/***************************************
+                MAIN BODY
+****************************************/
+body{
     font-family: 'Oswald', sans-serif;
     background: url(images/biopython_logo_l_opacity1.png) bottom right no-repeat fixed;
     background-size: 80%; 
 }
-
-
-h1 {
+h1{
     font-size: 17px;
     color: #264653;
     padding-left: 40px;
@@ -17,9 +14,16 @@ h1 {
 
 
 }
+.main{
+    margin-left: 170px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+}
 
 
-.sidenav {
+/***************************************
+                SIDENAV
+****************************************/
+.sidenav{
     height: 100%;
     width: 170px;
     position: fixed;
@@ -34,8 +38,7 @@ h1 {
     border: none;
     outline:none;
 }
-
-.sidenav a {
+.sidenav a{
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -44,17 +47,6 @@ h1 {
     border: none;
     background-color:  #a0d6f7;
 }
-
-.fa-caret-down, .fa-caret-up {
-  float: right;
-  padding-right: 20px;
-  padding-top: 4px;
-}
-
-.modulelist{
-    padding-left:15%;
-}
-
 .sidenav a:hover{
     color:  #264653;
     outline:none;
@@ -66,9 +58,8 @@ h1 {
 .sidenav a:link{
     outline:none;
 }
-
-.dropdown-container 
-{
+/*      DROPDOWN BUTTON     */
+.dropdown-container{
     font-size: 17px;
     align-items: center;
     text-align:center;
@@ -76,54 +67,44 @@ h1 {
     padding-left: 8px;
     background-color:  #a0d6f7;
 }
-
-
-.main {
-    margin-left: 170px; /* Same as the width of the sidenav */
-    padding: 0px 10px;
+.fa-caret-down, .fa-caret-up{
+  float: right;
+  padding-right: 20px;
+  padding-top: 4px;
 }
-
-
-#profile {
+#biopythonlogo{
     width: 97%;
 }
 
-#classid, #classname {
-    font-size: 40px;
 
+/***************************************
+                TITLE
+****************************************/
+#classid, #classname{
+    font-size: 40px;
 }
 #classname{
     color: #FFD43B;
 }
-
 #studentid{
     font-size: 30px;
     color: #306998;
 }
-
-#city {
+#city{
     color: #e9c46a;
     padding-left: 8px;
     font-size: 13px;
 }
 
-#github-mark{
-    width: 90px;
-}
 
-.github-octicon{
-    width: 30px;
-    padding-left: 10px;
-    vertical-align: middle
-
-}
-
-.navsection {
+/***************************************
+            NAVSECTION
+****************************************/
+.navsection{
     font-weight: bold;
     font-size: 30px;
     margin-top: 40px;
 }
-
 .navsection p{
     font-size: 17px;
     color: #264653;
@@ -131,8 +112,7 @@ h1 {
     margin-bottom: -30px;
     line-height: 22px;
 }
-
-ul#menu li {
+ul#menu li{
     display:block;
     font-size: 13px;
     color: #737373;
@@ -141,46 +121,50 @@ ul#menu li {
     font-family: 'Montserrat', sans-serif;
 
 }
-
 #menu{
     line-height: 30px;
     padding-top: -60px;
 
 }
-
 .tools{
     margin-bottom: -25px !important;
 }
-
-
+.modulelist{
+    padding-left:15%;
+}
 #OpenSource a{
     padding-left: 80px;
     font-size: 13px;
     color: #e9c46a;  
 }
+#challenges{
+    overflow:hidden;
+    display:block;
+}
 
+/***************************************
+            LOGOS & LINKS
+****************************************/
+.github-octicon{
+    width: 30px;
+    padding-left: 10px;
+    vertical-align: middle
+}
 #user{
     color: #306998 !important; 
     padding-left: 0px !important;
     text-decoration: none;
 }
 
-#largelogo{
-    width: 100%;
-    opacity: .1;
-}
-
 
 /***************************************
                 TOOL TIP
 ****************************************/
-
-.tooltip {
+.tooltip{
   position: relative;
   display: inline-block;
 }
-
-.tooltip .tooltiptext {
+.tooltip .tooltiptext{
   visibility: hidden;
   background-color: #646464;
   width: auto;
@@ -192,19 +176,17 @@ ul#menu li {
   z-index: 1;
   bottom: 130%;
   left: 50%;
-  margin-left: -60px;
+  transform: translateX(-50%);
   opacity: 0;
   transition: opacity 0.3s;
   white-space: nowrap;
 }
-
-.tooltip:hover .tooltiptext {
+.tooltip:hover .tooltiptext{
     font-size: 15px;
     visibility: visible;
     opacity: 1;
 }
-
-.tooltip-arrow {
+.tooltip-arrow{
     opacity: 0;
 }
 
