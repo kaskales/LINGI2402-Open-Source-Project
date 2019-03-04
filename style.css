@@ -4,7 +4,7 @@
 body{
     font-family: 'Oswald', sans-serif;
     background: url(images/biopython_logo_l_opacity1.png) bottom right no-repeat fixed;
-    background-size: 80%; 
+    background-size: calc(100% - 170px); 
 }
 h1{
     font-size: 17px;
