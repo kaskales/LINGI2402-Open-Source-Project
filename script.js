@@ -53,7 +53,18 @@ $(document).ready(function(){
       scrollTop: $($.attr(this, 'href')).offset().top - scrollOffSet
     }, 700);
   });
-  
+  $("#1967").click(function(e) {
+    e.preventDefault();
+    $('html, body').animate({
+      scrollTop: $($.attr(this, 'href')).offset().top - scrollOffSet
+    }, 700);
+  });
+  $("#1973").click(function(e) {
+    e.preventDefault();
+    $('html, body').animate({
+      scrollTop: $($.attr(this, 'href')).offset().top - scrollOffSet
+    }, 700);
+  });
 
   // animate the dropdown menu for the pullrequests
   var dropdown = document.getElementsByClassName("dropdown-btn");
