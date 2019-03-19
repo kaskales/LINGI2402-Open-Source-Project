@@ -155,6 +155,14 @@ ul#menu li{
     padding-left: 0px !important;
     text-decoration: none;
 }
+#bio1_73{
+    color: #40768c !important; 
+    padding-left: 0px !important;
+    text-decoration: none;
+}
+#bio1_73:hover,#user:hover{
+    text-decoration: underline;
+}
 
 
 /***************************************
