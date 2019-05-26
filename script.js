@@ -95,6 +95,8 @@ SOURCE for pointer trail code :
 https://codepen.io/jk-gecko/pen/KoWaRM
 */
 
+/*
+
 var colour="random"; // "random" can be replaced with any valid colour ie: "red"...
 var sparkles=20;// increase of decrease for number of sparkles falling
 
@@ -356,3 +358,4 @@ function newColour() {
   //return ("rgb("+c[0]+", "+c[1]+", "+c[2]+")");
 }
 // ]]>
+*/
