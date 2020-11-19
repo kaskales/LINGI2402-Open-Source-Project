@@ -27,19 +27,23 @@
 	<br><br><br>
 	<a id="button1" href="#biopython">		BIOPYTHON</a>
 	<a id="button2"	href="#Skills">		TOOLS</a>
-	<a id="button3"	href="#summary">		SUMMARY</a>
-	<a id="button4"	href="#challenges">		CHALLENGES</a>
 	<a id="button5"  class="dropdown-btn">PULL REQUESTS
     	<i id = "carrot" class="fa fa-angle-down"></i>
     </a>
 	<div class="dropdown-container">
+		<a id="3309" href="#pr7">#3309</a>
+		<a id="3307" href="#pr7">#3307</a>
+		<a id="1973" href="#pr6">#1973</a>
+		<a id="1967" href="#pr5">#1967</a>
+		<a id="1942" href="#pr4">#1942</a>
+		<a id="1937" href="#pr3">#1937</a>
+		<a id="1747" href="#pr2">#1747</a>
 		<a id="1731" href="#pr1">#1731</a>
-	    <a id="1747" href="#pr2">#1747</a>
-	    <a id="1937" href="#pr3">#1937</a>
-	    <a id="1942" href="#pr4">#1942</a>
-	    <a id="1967" href="#pr4">#1967</a>
-	    <a id="1973" href="#pr4">#1973</a>
+		
 	</div>
+<!-- 	<a id="button3"	href="#summary">		SUMMARY</a>
+	<a id="button4"	href="#challenges">		CHALLENGES</a> -->
+	
 </div>
 
 <div class="main">
@@ -47,19 +51,17 @@
 
 	<div>
 		<br>
-		<strong id="classid">LINGI2402 </strong> <strong id="classname"> Project Open Source</strong>
+		<!-- <strong id="classid">LINGI2402 </strong>  -->
+		<strong id="classname"> Project Open Source Contributions Summary</strong>
 		<br>
-		<strong id="studentid">Catherine Lesuisse  63621700</strong>
+		<strong id="studentid">Catherine Lesuisse</strong>
 		<br><br>
-		<strong id="city"> Université catholique de Louvain </strong> 
+<!-- 		<strong id="city"> Université catholique de Louvain </strong> 
 		<br>
 		<strong id="city"> LOUVAIN-LA-NEUVE, BELGIUM </strong> 
-		<br>
-	
+		<br> -->
 	</div>
-
 	<br><br><br>
-
 	<div id="biopython" class="navsection"> Biopython
 		<div class="tooltip">
 			<a href="https://github.com/biopython/biopython"><img class="github-octicon" src="octicons/mark-github.svg"></img></a>
@@ -79,7 +81,7 @@
 
 	<div id="Skills" class="navsection"> Tools
 		
-		<p >Python 2.7.9 upwards & Python3.4 upwards</p>
+		<p >Python3.6 upwards</p>
 		<ul class="tools" id="menu">
 			<li>Must be compatible with all recent versions of Python </li>
 		</ul>
@@ -96,7 +98,170 @@
 		
 	</div>
 
-	<div id="summary" class="navsection"> Summary
+	
+
+	<br>
+
+	<div id="OpenSource" class="navsection"> Pull Requests
+		<p id="pr8"> #3309 : Utilized __slots__ in Seq and SeqRecord classes </p>
+		<ul id="menu">
+			<div class="tooltip">
+				<img class="github-octicon" id="o_pr" src="octicons/git-pull-request.svg"></img>
+				<span class="tooltiptext">Open Pull Request</span>
+			</div> 
+			<div class="tooltip">
+				<img class="github-octicon" id="o_sq" src="octicons/squirrel.svg"></img>
+				<span class="tooltiptext">New Feature</span>
+			</div>
+
+			<br>
+			<li>Added __slots__ to the Seq and SeqRecord classes.
+
+			In SeqRecord the seq and letter_annotations attributes were changed into functions with property decorators.</li>
+			<a href="https://github.com/biopython/biopython/pull/3309"> Read more on Github...</a>
+		</ul>
+		<p id="pr7"> #3307 : Removed partial codon warning when testing amino acid sequences </p>
+		<ul id="menu">
+			<div class="tooltip">
+				<img class="github-octicon" id="o_pr" src="octicons/git-pull-request.svg"></img>
+				<span class="tooltiptext">Open Pull Request</span>
+			</div> 
+			<div class="tooltip">
+				<img class="github-octicon" id="o_bu" src="octicons/bug.svg"></img>
+				<span class="tooltiptext">Bug Fix</span>
+			</div>
+
+			<br>
+			<li>Only changed the testing amino acid sequences so the warning isn't triggered. Amino acid sequences don't need to be divisible by 3, only codon sequences.
+
+			Trimmed three testing protein_seqs by one amino acid to prevent irrelevant partial codon warning from appearing when testing TranslationError of amino acid Seq() object.</li>
+			<a href="https://github.com/biopython/biopython/pull/3307"> Read more on Github...</a>
+		</ul>
+		<p id="pr6">#1973 : Fix for Bio.motifs.jaspar.db DocTests </p>
+		<ul id="menu">
+			<div class="tooltip">
+				<img class="github-octicon" id="o_pr" src="octicons/git-merge.svg"></img>
+				<span class="tooltiptext">Merged Pull Request</span>
+			</div> 
+			<div class="tooltip">
+				<img class="github-octicon" id="o_bo" src="octicons/book.svg"></img>
+				<span class="tooltiptext">Wrote Tests</span>
+			</div>
+			<div class="tooltip">
+				<img class="github-octicon" id="o_bu" src="octicons/bug.svg"></img>
+				<span class="tooltiptext">Bug Fix</span>
+			</div>
+
+			<br>
+			<li>Change of doctests for the JASPAR5 class into RST literal block, and update the example to reflect the new JASPAR2018 mysqldump data.</li>
+			<a href="https://github.com/biopython/biopython/pull/1973"> Read more on Github...</a>
+		</ul>
+		<p id="pr5">#1967 : Fix for Bio.motifs.mast and Bio.motifs.minimal DocTests </p>
+		<ul id="menu">
+			<div class="tooltip">
+				<img class="github-octicon" id="o_pr" src="octicons/git-merge.svg"></img>
+				<span class="tooltiptext">Merged Pull Request</span>
+			</div> 
+			<div class="tooltip">
+				<img class="github-octicon" id="o_bu" src="octicons/bug.svg"></img>
+				<span class="tooltiptext">Bug Fix</span>
+			</div>
+
+			<br>
+			<li>Correction of doctests for the Bio.motifs.mast and Bio.motifs.minimal class. Allows users to have workable examples.</li>
+			<a href="https://github.com/biopython/biopython/pull/1967"> Read more on Github...</a>
+		</ul>
+		<p id="pr4">#1942 : Enhance CodonAlignment to support addition operation </p>
+		<ul id="menu">
+			<div class="tooltip">
+				<img class="github-octicon" id="o_pr" src="octicons/git-merge.svg"></img>
+				<span class="tooltiptext">Merged Pull Request</span>
+			</div> 
+			<div class="tooltip">
+				<img class="github-octicon" id="o_sq" src="octicons/squirrel.svg"></img>
+				<span class="tooltiptext">New Feature</span>
+			</div>
+			<div class="tooltip">
+				<img class="github-octicon" id="o_bo" src="octicons/book.svg"></img>
+				<span class="tooltiptext">Wrote Tests</span>
+			</div>
+
+			<br>
+			<li> Collaborated with an experienced contributor, <a id="user" href="https://github.com/zruan">@zruan</a>, to add the __add__() feature to the CodonAlignment class. </li>
+			<li>Wrote unitests to ensure appropriate sequence alphabet compatibility between CodonAlignment and MultipleSeqAlignment objects.</li>
+			<li>Debugged and contributed to each others code.</li>
+		
+			<a href="https://github.com/biopython/biopython/pull/1942"> Read more on Github...</a>
+			<a href="https://github.com/zruan/biopython/pull/1"> And here...</a>
+			<a href="https://github.com/zruan/biopython/pull/2"> And here...</a>
+		</ul>
+		<p id="pr3">#1937 : Fix for Bio.motifs.meme DocTests</p>
+		<ul id="menu">
+			<div class="tooltip">
+				<img class="github-octicon" id="o_me" src="octicons/git-merge.svg"></img>
+				<span class="tooltiptext">Merged Pull Request</span>
+			</div> 
+			<div class="tooltip">
+				<img class="github-octicon" id="o_bo" src="octicons/book.svg"></img>
+				<span class="tooltiptext">Wrote Tests</span>
+			</div>
+			<div class="tooltip">
+				<img class="github-octicon" id="o_bu" src="octicons/bug.svg"></img>
+				<span class="tooltiptext">Bug Fix</span>
+			</div>
+			
+			<br>
+			<li>Correction of doctests for the Bio.motifs.meme class. Allows users to have workable examples.</li>
+			
+			<a href="https://github.com/biopython/biopython/pull/1937"> Read more on Github...</a>
+		</ul>
+		<p id="pr2">#1747 : Removes files created during run of test_Tutorial.py</p>
+		<ul id="menu">
+			<div class="tooltip">
+				<img class="github-octicon" id="o_me" src="octicons/git-merge.svg" ></img>
+				<span class="tooltiptext">Merged Pull Request</span>
+			</div>
+			<div class="tooltip">
+				<img class="github-octicon" id="o_bu" src="octicons/bug.svg"></img>
+				<span class="tooltiptext">Bug Fix</span>
+			</div>
+			
+			<br>
+			<li>Fix to ensure proper cleanup of all temporary files after testing is completed.</li>
+
+			<a href="https://github.com/biopython/biopython/pull/1747"> Read more on Github...</a>
+		</ul>
+		<p id="pr1">#1731 : Added the Seq.join() method</p>
+		<ul id="menu">
+			<div class="tooltip">
+				<img class="github-octicon" id="o_pr"  src="octicons/git-merge.svg" ></img>
+				<span class="tooltiptext">Merged Pull Request</span>
+			</div>
+			<div class="tooltip">
+				<img class="github-octicon" id="o_sq" src="octicons/squirrel.svg"></img>
+				<span class="tooltiptext">New Feature</span>
+			</div>
+			<div class="tooltip">
+				<img class="github-octicon" id="o_bo" src="octicons/book.svg"></img>
+				<span class="tooltiptext">Wrote Tests</span>
+			</div>
+			<br>
+			<li>Addition of the new feature join() to the Seq, MutableSeq and UnknownSeq classes. This feature allows the concatenation of biological sequences of comparable types. Following inspiration from Pythons String join() method.</li>
+			<li>Thorough Unittests created to ensure function in appropriate cases and failure in instances with usage of incompatible objects.</li>
+			<li>Active discussion with the maintainer <a id="user" href="https://github.com/peterjc">@peterjc</a> to ensure desired functionality and received guidance as a first time contributor.</li>
+			
+			<a href="https://github.com/biopython/biopython/pull/1731"> Read more on Github...</a>
+			<a href="https://github.com/biopython/biopython/commit/e856cd3d1896814ed3f83b73391098d539e4ff8c"> And here...</a>
+		</ul>
+		
+		
+		
+		
+		
+		
+	</div>
+
+	<!-- <div id="summary" class="navsection"> Summary
 		<h1>
 			I chose to contribute to the Biopython community because it is highly recommended to pick a project of which I am already familiar with as a user. Biopython is a package I used nearly everyday during my time as a <a id="bio1_73" href="https://github.com/kaskales/VSG_Pipeline"> research technologist </a> in a lab. 
 			<br> <br> 
@@ -141,131 +306,7 @@
 			CSS and styling of this webpage.
 		</h1>
 		
-	</div>
-
-	<br>
-
-	<div id="OpenSource" class="navsection"> Pull Requests
-		<p id="pr1">#1731 : Added the Seq.join() method</p>
-		<ul id="menu">
-			<div class="tooltip">
-				<img class="github-octicon" id="o_pr"  src="octicons/git-merge.svg" ></img>
-				<span class="tooltiptext">Merged Pull Request</span>
-			</div>
-			<div class="tooltip">
-				<img class="github-octicon" id="o_sq" src="octicons/squirrel.svg"></img>
-				<span class="tooltiptext">New Feature</span>
-			</div>
-			<div class="tooltip">
-				<img class="github-octicon" id="o_bo" src="octicons/book.svg"></img>
-				<span class="tooltiptext">Wrote Tests</span>
-			</div>
-			<br>
-			<li>Addition of the new feature join() to the Seq, MutableSeq and UnknownSeq classes. This feature allows the concatenation of biological sequences of comparable types. Following inspiration from Pythons String join() method.</li>
-			<li>Thorough Unittests created to ensure function in appropriate cases and failure in instances with usage of incompatible objects.</li>
-			<li>Active discussion with the maintainer <a id="user" href="https://github.com/peterjc">@peterjc</a> to ensure desired functionality and received guidance as a first time contributor.</li>
-			
-			<a href="https://github.com/biopython/biopython/pull/1731"> Read more on Github...</a>
-			<a href="https://github.com/biopython/biopython/commit/e856cd3d1896814ed3f83b73391098d539e4ff8c"> And here...</a>
-		</ul>
-		<p id="pr2">#1747 : Removes files created during run of test_Tutorial.py</p>
-		<ul id="menu">
-			<div class="tooltip">
-				<img class="github-octicon" id="o_me" src="octicons/git-merge.svg" ></img>
-				<span class="tooltiptext">Merged Pull Request</span>
-			</div>
-			<div class="tooltip">
-				<img class="github-octicon" id="o_bu" src="octicons/bug.svg"></img>
-				<span class="tooltiptext">Bug Fix</span>
-			</div>
-			
-			<br>
-			<li>Fix to ensure proper cleanup of all temporary files after testing is completed.</li>
-
-			<a href="https://github.com/biopython/biopython/pull/1747"> Read more on Github...</a>
-		</ul>
-		<p id="pr3">#1937 : Fix for Bio.motifs.meme DocTests</p>
-		<ul id="menu">
-			<div class="tooltip">
-				<img class="github-octicon" id="o_me" src="octicons/git-merge.svg"></img>
-				<span class="tooltiptext">Merged Pull Request</span>
-			</div> 
-			<div class="tooltip">
-				<img class="github-octicon" id="o_bo" src="octicons/book.svg"></img>
-				<span class="tooltiptext">Wrote Tests</span>
-			</div>
-			<div class="tooltip">
-				<img class="github-octicon" id="o_bu" src="octicons/bug.svg"></img>
-				<span class="tooltiptext">Bug Fix</span>
-			</div>
-			
-			<br>
-			<li>Correction of doctests for the Bio.motifs.meme class. Allows users to have workable examples.</li>
-			
-			<a href="https://github.com/biopython/biopython/pull/1937"> Read more on Github...</a>
-		</ul>
-		<p id="pr4">#1942 : Enhance CodonAlignment to support addition operation </p>
-		<ul id="menu">
-			<div class="tooltip">
-				<img class="github-octicon" id="o_pr" src="octicons/git-pull-request.svg"></img>
-				<span class="tooltiptext">Open Pull Request</span>
-			</div> 
-			<div class="tooltip">
-				<img class="github-octicon" id="o_sq" src="octicons/squirrel.svg"></img>
-				<span class="tooltiptext">New Feature</span>
-			</div>
-			<div class="tooltip">
-				<img class="github-octicon" id="o_bo" src="octicons/book.svg"></img>
-				<span class="tooltiptext">Wrote Tests</span>
-			</div>
-
-			<br>
-			<li> Collaborated with an experienced contributor, <a id="user" href="https://github.com/zruan">@zruan</a>, to add the __add__() feature to the CodonAlignment class. </li>
-			<li>Wrote unitests to ensure appropriate sequence alphabet compatibility between CodonAlignment and MultipleSeqAlignment objects.</li>
-			<li>Debugged and contributed to each others code.</li>
-		
-			<a href="https://github.com/biopython/biopython/pull/1942"> Read more on Github...</a>
-			<a href="https://github.com/zruan/biopython/pull/1"> And here...</a>
-			<a href="https://github.com/zruan/biopython/pull/2"> And here...</a>
-		</ul>
-		<p id="pr5">#1967 : Fix for Bio.motifs.mast and Bio.motifs.minimal DocTests </p>
-		<ul id="menu">
-			<div class="tooltip">
-				<img class="github-octicon" id="o_pr" src="octicons/git-merge.svg"></img>
-				<span class="tooltiptext">Merged Pull Request</span>
-			</div> 
-			<div class="tooltip">
-				<img class="github-octicon" id="o_bu" src="octicons/bug.svg"></img>
-				<span class="tooltiptext">Bug Fix</span>
-			</div>
-
-			<br>
-			<li>Correction of doctests for the Bio.motifs.mast and Bio.motifs.minimal class. Allows users to have workable examples.</li>
-			<a href="https://github.com/biopython/biopython/pull/1967"> Read more on Github...</a>
-
-		</ul>
-		<p id="pr5">#1973 : Fix for Bio.motifs.jaspar.db DocTests </p>
-		<ul id="menu">
-			<div class="tooltip">
-				<img class="github-octicon" id="o_pr" src="octicons/git-merge.svg"></img>
-				<span class="tooltiptext">Merged Pull Request</span>
-			</div> 
-			<div class="tooltip">
-				<img class="github-octicon" id="o_bo" src="octicons/book.svg"></img>
-				<span class="tooltiptext">Wrote Tests</span>
-			</div>
-			<div class="tooltip">
-				<img class="github-octicon" id="o_bu" src="octicons/bug.svg"></img>
-				<span class="tooltiptext">Bug Fix</span>
-			</div>
-
-			<br>
-			<li>Change of doctests for the JASPAR5 class into RST literal block, and update the example to reflect the new JASPAR2018 mysqldump data.</li>
-			<a href="https://github.com/biopython/biopython/pull/1973"> Read more on Github...</a>
-
-		</ul>
-		
-	</div>
+	</div> -->
 
 	<br><br><br>
 	<i>2019 Made by Catherine Lesuisse</i>
